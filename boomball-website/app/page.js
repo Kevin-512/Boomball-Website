@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Blog from "@/components/Blog";
 import Team from "@/components/Team";
 import React from "react";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <About/>
       <Team/>
       <Blog/>
-      <div className="h-[500px]"></div>
+      <Footer/>
     </div>
   );
 };

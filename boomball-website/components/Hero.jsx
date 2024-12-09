@@ -16,7 +16,7 @@ const Hero = () => {
               fill
               quality="100"
               priority
-              className="object-fill pt-4"
+              className="object-fill"
             />
           </div>
           {/* Introduction text */}

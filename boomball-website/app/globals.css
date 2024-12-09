@@ -18,7 +18,7 @@
     @apply font-primary text-[45px] xl:text-[90px] leading-none;
   }
   .h2 {
-    @apply text-[36px] tracking-[-0.02em] leading-[44px] font-semibold;
+    @apply text-[48px] tracking-[-0.02em] leading-[44px] font-normal;
   }
   .h3 {
     @apply text-[20px] font-semibold;
