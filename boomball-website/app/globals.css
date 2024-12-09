@@ -46,4 +46,7 @@
   :root {
     --radius: 0.5rem;
   }
+  .outline-text {
+    -webkit-text-stroke: 1px #e6e4df;
+  }
 }

@@ -1,7 +1,20 @@
 import Link from "next/link";
-import {} from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
-const socials = [];
+const socials = [
+  {
+    icon: <FaYoutube />,
+    path: "https://www.youtube.com/@BoomBallExtreme",
+  },
+  {
+    icon: <FaInstagram />,
+    path: "https://www.instagram.com/boomballExtreme/",
+  },
+  {
+    icon: <FaTiktok />,
+    path: "https://www.tiktok.com/@boomballextreme",
+  },
+];
 
 const Socials = ({ containerStyles, iconStyles }) => {
   return (

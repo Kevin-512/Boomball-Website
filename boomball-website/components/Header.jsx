@@ -13,14 +13,14 @@ const Header = () => {
           <div className="flex items-center gap-12">
             {/* Showcases the different text links to navigate to a section of the page */}
             <Nav
-              containerStyles="hidden xl:flex"
+              containerStyles="hidden lg:flex"
               listStyles="flex gap-6"
-              linkStyles="text-accent font-semibold text-lg tracking-[1.4px] transition-all duration-300 cursor-pointer uppercase hover:underline"
+              linkStyles="text-accent font-semibold text-lg tracking-[1.4px] transition-all duration-300 cursor-pointer uppercase hover:underline hover:text-accent-hover"
             />
             {/* Displays the social buttons next to the text links */}
             <Socials
               containerStyles="flex items-center gap-2"
-              iconStyles="text-xl w-[32px] h-[32px] bg-accent text-primary flex items-center justify-center rounded-full"
+              iconStyles="text-xl w-[32px] h-[32px] bg-accent hover:bg-accent-hover text-primary flex items-center justify-center rounded-full"
             />
           </div>
         </div>
