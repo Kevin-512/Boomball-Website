@@ -19,6 +19,14 @@ const journey = [
     description:
       "After three months of working with Transfuzer, all our hard work manifested into 3 days of presenting the game to the public, industry leaders and potential investors.",
   },
+  {
+    company: "Staffordshire University",
+    logoURL: "/events/gamesrepublic.jpg",
+    event: "Games Republic",
+    duration: "June 2024",
+    description:
+      "A competition where universities and colleges across the north of England came together to showcase a variety of games.",
+  },
 ];
 
 const Cards = () => {

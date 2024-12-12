@@ -10,7 +10,7 @@ const Card = ({ logoURL, event, duration, description, company }) => {
           <div className="h-[80px] xl:h-[68px] bg-accent flex flex-col xl:flex-row justify-center xl:justify-between items-center px-6 md:px-[84px] rounded-tl-[8px] rounded-tr-[8px]">
             <div className="flex gap-2">
               {/* Accompanying icon alongside titles */}
-              <FaBomb className="text-primary mt-1.5 items-center" />
+              <FaBomb className="text-white mt-1.5 items-center" />
               <h3 className="text-lg font-semibold text-primary">
                 {/* Display in correct section depending on category */}
                 {event}
@@ -21,8 +21,8 @@ const Card = ({ logoURL, event, duration, description, company }) => {
             </p>
           </div>
           <div className="flex-1 flex items-center justify-center xl:justify-start md:py-8 md:px-16">
-            <div className="flex flex-col xl:flex-row items-center xl:items-start gap-4 text-center xl:text-left xl:gap-10 px-4 xl:px-0">
-              <div className="relative w-[300px] h-[100px] xl:h-[125px]">
+            <div className="flex flex-col xl:flex-row items-center gap-4 text-center xl:text-left xl:gap-10 px-4 xl:px-0">
+              <div className="relative w-[300px] h-[100px] xl:h-[150px]">
                 <Image src={logoURL} fill alt="" className="object-contain" />
               </div>
               {/* Display the location of the skill */}

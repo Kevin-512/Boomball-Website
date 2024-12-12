@@ -42,7 +42,7 @@ const teamData = [
 
 const Team = () => {
   return (
-    <section className="mb-12 xl:mb-32" id="our team">
+    <section className="m-12 xl:mb-24" id="our team">
       <div className="container mx-auto">
         <h2 className="h2 text-primary justify-center text-center lg:text-start my-4">
           Our Team

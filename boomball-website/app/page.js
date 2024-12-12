@@ -9,10 +9,10 @@ const Home = () => {
   return (
     <div className="bg-[#EFF1DB]">
       <Hero />
-      <About/>
-      <Team/>
-      <Blog/>
-      <Footer/>
+      <About />
+      <Blog />
+      <Team />
+      <Footer />
     </div>
   );
 };

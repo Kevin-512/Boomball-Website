@@ -9,10 +9,10 @@ const links = [
     name: "about",
   },
   {
-    name: "our team",
+    name: "blog",
   },
   {
-    name: "blog",
+    name: "our team",
   },
 ];
 
