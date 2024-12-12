@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
-    <div className="bg-tertiary">
+    <div className="bg-[#EFF1DB]">
       <Hero />
       <About/>
       <Team/>

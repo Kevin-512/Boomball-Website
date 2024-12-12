@@ -8,34 +8,35 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const teamData = [
   {
-    icon: "/BoomballChar1.png",
+    icon: "/profiles/jamesD.jpg",
     name: "James",
-    title: "Attracted to Beer",
-    description: "Really Really likes beer",
+    title: "Team Leader Attracted to Beer",
+    description: "",
   },
   {
-    icon: "/BoomballChar1.png",
-    name: "James",
-    title: "Attracted to Beer",
-    description: "Really Really likes beer",
+    icon: "/profiles/maxC.jpg",
+    name: "Max",
+    title: "Audio Engineer",
+    description: "",
   },
   {
-    icon: "/BoomballChar1.png",
-    name: "James",
-    title: "Attracted to Beer",
-    description: "Really Really likes beer",
+    icon: "/profiles/hualiangZ.jpg",
+    name: "Hualiang",
+    title: "Programmer",
+    description: "",
   },
   {
-    icon: "/BoomballChar1.png",
-    name: "James",
-    title: "Attracted to Beer",
-    description: "Really Really likes beer",
+    icon: "/profiles/kennethC.jpg",
+    name: "Kenneth",
+    title: "Programmer",
+    description: "",
   },
+
   {
-    icon: "/BoomballChar1.png",
-    name: "James",
-    title: "Attracted to Beer",
-    description: "Really Really likes beer",
+    icon: "/profiles/oliverF.jpg",
+    name: "Oliver",
+    title: "Artist/Animator",
+    description: "",
   },
 ];
 
@@ -55,15 +56,16 @@ const Team = () => {
           spaceBetween={30}
           modules={[Pagination]}
           pagination={{ clickable: true }}
-          className="h-[320px]"
+          className="h-[300px]"
         >
           {teamData.map((person, index) => {
             return (
               <SwiperSlide key={index}>
-                <Card className="bg-accent p-8 min-h-300px">
+                <Card className="bg-[#FF5D00] p-8 min-h-300px border-8 border-[#000C66]">
                   <CardHeader className="p-0 mb-10">
                     <div className="flex items-center gap-x-4">
                       <Image
+                        className="border-black border-4 rounded-xl"
                         src={person.icon}
                         width={100}
                         height={100}
@@ -76,7 +78,9 @@ const Team = () => {
                       </div>
                     </div>
                   </CardHeader>
-                  <CardDescription className="text-primary">{person.description}</CardDescription>
+                  <CardDescription className="text-primary font-secondary">
+                    {person.description}
+                  </CardDescription>
                 </Card>
               </SwiperSlide>
             );
