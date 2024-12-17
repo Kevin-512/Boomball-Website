@@ -10,7 +10,7 @@ const teamData = [
   {
     icon: "/profiles/jamesD.jpg",
     name: "James",
-    title: "Team Leader Attracted to Beer",
+    title: "Team Leader",
     description: "",
   },
   {
@@ -47,6 +47,7 @@ const Team = () => {
         <h2 className="h2 text-primary justify-center text-center lg:text-start my-4">
           Our Team
         </h2>
+        {/* Creates a slideshow that displays 2 slides if the screen size is small and 3 if the screen is big */}
         <Swiper
           slidesPerView={1}
           breakpoints={{
@@ -59,9 +60,10 @@ const Team = () => {
           className="h-[300px]"
         >
           {teamData.map((person, index) => {
+            // Creates each individual slide using information from constant json
             return (
               <SwiperSlide key={index}>
-                <Card className="bg-[#FF5D00] p-8 min-h-300px border-8 border-[#000C66]">
+                <Card className="bg-[#FF5D00] p-8 min-h-300px border-8 border-[#000C66] rounded-3xl">
                   <CardHeader className="p-0 mb-10">
                     <div className="flex items-center gap-x-4">
                       <Image

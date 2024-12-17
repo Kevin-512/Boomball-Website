@@ -12,7 +12,12 @@ const Footer = () => {
             <div className="text-white">
               Copyright &copy; 2024. All rights reserved.
             </div>
-            <Image src="/logos/BlackBoxStudiosLogo.png" width={100} height={100} alt=""/>
+            <Image
+              src="/logos/BlackBoxStudiosLogo.png"
+              width={100}
+              height={100}
+              alt=""
+            />
           </div>
         </div>
       </div>

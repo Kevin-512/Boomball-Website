@@ -28,6 +28,7 @@ const About = () => {
         <h2 className="h2 text-primary justify-center text-center lg:text-start my-4">
           About
         </h2>
+        {/* Paragraph describing the game */}
         <div className="flex lg:flex-row flex-col gap-4 items-center pb-4">
           <p className="max-w-[800px] lg:text-start text-center pb-8 text-xl justify-center">
             BoomBall Extreme is a chaotically exciting, fun football game
@@ -37,11 +38,13 @@ const About = () => {
             team of 6 unique and wacky characters each with their own abilities
             and play-styles to obtain the ultimate win.
           </p>
+          {/* Displays the Youtube Video in large screen sizes, hidden on mobile */}
           <div className="hidden lg:flex">
             <YouTube videoId="PGwnZwb3AuM" id="video" />
           </div>
         </div>
 
+        {/* Displays all the boomball characters within cards */}
         <h4 className="text-3xl text-primary justify-center text-center lg:text-start my-4">
           The Lineup
         </h4>
@@ -49,7 +52,7 @@ const About = () => {
           {characters.map((character, index) => {
             return (
               <div
-                className="flex flex-col justify-center items-center gap-4 border-8 border-[#000C66] rounded-md p-10 bg-accent"
+                className="flex flex-col justify-center items-center gap-4 border-8 border-[#000C66] rounded-3xl p-10 bg-accent"
                 key={index}
               >
                 <div className="flex h-[200px] w-[200px] border-4 border-black rounded-md">
